@@ -1,0 +1,30 @@
+body{
+    background-color: darkblue;
+    color: aliceblue;
+}
+h1,h2{
+    text-align: center;
+}
+img{
+    width: 1200px;
+    margin-top: 40px;
+}
+.container{
+    margin-top: 40px;
+    text-align: center;
+}
+a{
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+h1{
+    color: yellow;
+}
+hr{
+    border: 3px solid rgb(215, 205, 215);
+}
+h2{
+    color: red;
+}

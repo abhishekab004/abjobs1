@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <h1>Welcome to AB JOBS PORTAL</h1>
+        <h5>Continous jobs updates every hours .......</h5>
+         <hr>
+         <h3>Choose in which city you are looking for dream job</h3>
+        <a class="btn btn-danger btn-lg" href="/hyd" role="button">Hyd Jobs</a> &emsp;&emsp;
+        <a class="btn btn-success btn-lg" href="/pune" role="button">Pune Jobs</a>&emsp;&emsp;
+        <a class="btn btn-info btn-lg" href="/delhi" role="button">Delhi Jobs</a>
+         <hr> <br>
+
+        <div>
+            <h2>API Links For Our Jobs Location </h2>
+            <h4>You Can Use Free In Your Website Just Copy and Paste ......</h4>
+            <a href="http://127.0.0.1:8000/api/delhijobsinfo/" class='btn btn-primary'>For Demo Purpose Click Here</a>
+    
+            <h6> Hyderabad Jobs : http://127.0.0.1:8000/api/hydjobsinfo/ </h6>
+            <h6> Pune Jobs : http://127.0.0.1:8000/api/punejobsinfo/ </h6>
+            <h6> Delhi Jobs : http://127.0.0.1:8000/api/delhijobsinfo/ </h6>
+            
+        
+        </div>
+        <img src="{% static 'image/jobs.jpg' %}" alt="">
+
+    </div>
+</body>
+</html>
